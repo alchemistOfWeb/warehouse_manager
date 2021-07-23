@@ -27,10 +27,11 @@
 * [ ] регистрация: <br> 
   `POST:http://host/register`
   
+  <br>
   
 * [ ] список складов: <br>
   `GET:http://host/warehouses`
-* [ ] информация о складе по его id: 
+* [ ] информация о складе по его id: <br>
   `GET:http://host/warehouses/<warehouse_id>`
   * [ ] стоимость всех его товаров
   * [ ] колличество товаров
@@ -41,11 +42,15 @@
 * [ ] удалить лишний склад:
   `DELETE:http://host/warehouses/<warehouse_id>`
   
-  
+  <br>
+
 * [ ] список товаров на складе: 
   `GET:http://host/warehouses/<warehouse_id>/items`
 * [ ] информация о товаре по его id: 
   `GET:http://host/warehouses/<warehouse_id>/items/<item_id>`
+  * [ ] сроки прибытия на склад => в таблице - дата заказа и прибытия
+  * [ ] срок годности
+  * [ ] 
 * [ ] создать товар с заданными характеристиками: 
   `POST:http://host/warehouses/<warehouse_id>/items`
 * [ ] изменить характеристики товара: 
@@ -53,3 +58,4 @@
 * [ ] удалить товар со склада: 
   `DELETE:http://host/warehouses/<warehouse_id>/items/<item_id>`
   
+<br>

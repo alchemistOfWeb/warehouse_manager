@@ -18,8 +18,8 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-ROOT = os.path.join(BASE_DIR.parent, '.env')
-env = dotenv_values(ROOT)
+ENV_PATH = os.path.join(BASE_DIR.parent, '.env')
+env = dotenv_values(ENV_PATH)
 
 
 # Quick-start development settings - unsuitable for production
